@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C362A04D2A75B6ED009FC4A7 /* xex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C362A04C2A75B6ED009FC4A7 /* xex.swift */; };
+		C362A04F2A75B6FF009FC4A7 /* unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C362A04E2A75B6FF009FC4A7 /* unity.swift */; };
+		C362A0512A75B803009FC4A7 /* lib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C362A0502A75B803009FC4A7 /* lib.swift */; };
+		C3AF7B922A75CF2900F39414 /* directory_table.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF7B912A75CF2900F39414 /* directory_table.swift */; };
+		C3AF7B942A75CF8800F39414 /* iso_types.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF7B932A75CF8800F39414 /* iso_types.swift */; };
+		C3AF7B962A75CFC800F39414 /* mod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF7B952A75CFC800F39414 /* mod.swift */; };
+		C3AF7B982A75D00E00F39414 /* volume_descriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF7B972A75D00E00F39414 /* volume_descriptor.swift */; };
+		C3AF7B9A2A75D06500F39414 /* con_header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF7B992A75D06500F39414 /* con_header.swift */; };
+		C3AF7B9E2A75D0C900F39414 /* file_layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF7B9D2A75D0C900F39414 /* file_layout.swift */; };
+		C3AF7BA02A75D0FD00F39414 /* gdf_sector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF7B9F2A75D0FD00F39414 /* gdf_sector.swift */; };
+		C3AF7BA22A75D14800F39414 /* hash_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF7BA12A75D14800F39414 /* hash_list.swift */; };
+		C3AF7BA42A75D17B00F39414 /* mod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF7BA32A75D17B00F39414 /* mod.swift */; };
 		C3E88DC72A757FE10040CBC3 /* XGOD.app in Sources */ = {isa = PBXBuildFile; fileRef = C3E88DB02A7548E20040CBC3 /* XGOD.app */; };
 		C3E88DEA2A7580300040CBC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E88DE52A7580300040CBC3 /* ContentView.swift */; };
 		C3E88DEB2A7580300040CBC3 /* XGODApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E88DE62A7580300040CBC3 /* XGODApp.swift */; };
@@ -15,6 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C362A04C2A75B6ED009FC4A7 /* xex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xex.swift; sourceTree = "<group>"; };
+		C362A04E2A75B6FF009FC4A7 /* unity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unity.swift; sourceTree = "<group>"; };
+		C362A0502A75B803009FC4A7 /* lib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lib.swift; sourceTree = "<group>"; };
+		C3AF7B912A75CF2900F39414 /* directory_table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = directory_table.swift; sourceTree = "<group>"; };
+		C3AF7B932A75CF8800F39414 /* iso_types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iso_types.swift; sourceTree = "<group>"; };
+		C3AF7B952A75CFC800F39414 /* mod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mod.swift; sourceTree = "<group>"; };
+		C3AF7B972A75D00E00F39414 /* volume_descriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volume_descriptor.swift; sourceTree = "<group>"; };
+		C3AF7B992A75D06500F39414 /* con_header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = con_header.swift; sourceTree = "<group>"; };
+		C3AF7B9D2A75D0C900F39414 /* file_layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = file_layout.swift; sourceTree = "<group>"; };
+		C3AF7B9F2A75D0FD00F39414 /* gdf_sector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gdf_sector.swift; sourceTree = "<group>"; };
+		C3AF7BA12A75D14800F39414 /* hash_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hash_list.swift; sourceTree = "<group>"; };
+		C3AF7BA32A75D17B00F39414 /* mod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mod.swift; sourceTree = "<group>"; };
 		C3E88DB02A7548E20040CBC3 /* XGOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XGOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E88DE42A7580300040CBC3 /* XGOD.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = XGOD.entitlements; sourceTree = "<group>"; };
 		C3E88DE52A7580300040CBC3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +58,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C309B63E2A76564800766300 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		C362A0492A75B6BE009FC4A7 /* god */ = {
+			isa = PBXGroup;
+			children = (
+				C3AF7B992A75D06500F39414 /* con_header.swift */,
+				C3AF7B9D2A75D0C900F39414 /* file_layout.swift */,
+				C3AF7B9F2A75D0FD00F39414 /* gdf_sector.swift */,
+				C3AF7BA12A75D14800F39414 /* hash_list.swift */,
+				C3AF7BA32A75D17B00F39414 /* mod.swift */,
+			);
+			path = god;
+			sourceTree = "<group>";
+		};
+		C362A04A2A75B6C6009FC4A7 /* iso */ = {
+			isa = PBXGroup;
+			children = (
+				C3AF7B912A75CF2900F39414 /* directory_table.swift */,
+				C3AF7B932A75CF8800F39414 /* iso_types.swift */,
+				C3AF7B952A75CFC800F39414 /* mod.swift */,
+				C3AF7B972A75D00E00F39414 /* volume_descriptor.swift */,
+			);
+			path = iso;
+			sourceTree = "<group>";
+		};
+		C362A04B2A75B6D6009FC4A7 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				C362A04C2A75B6ED009FC4A7 /* xex.swift */,
+				C362A04E2A75B6FF009FC4A7 /* unity.swift */,
+				C362A0502A75B803009FC4A7 /* lib.swift */,
+			);
+			path = x;
+			sourceTree = "<group>";
+		};
 		C3E88DA72A7548E20040CBC3 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +117,10 @@
 		C3E88DE32A75800D0040CBC3 /* XGOD */ = {
 			isa = PBXGroup;
 			children = (
+				C309B63E2A76564800766300 /* bin */,
+				C362A04B2A75B6D6009FC4A7 /* x */,
+				C362A04A2A75B6C6009FC4A7 /* iso */,
+				C362A0492A75B6BE009FC4A7 /* god */,
 				C3E88DE72A7580300040CBC3 /* Assets.xcassets */,
 				C3E88DE52A7580300040CBC3 /* ContentView.swift */,
 				C3E88DE82A7580300040CBC3 /* iso2god-macos */,
@@ -141,8 +209,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3E88DC72A757FE10040CBC3 /* XGOD.app in Sources */,
+				C3AF7BA22A75D14800F39414 /* hash_list.swift in Sources */,
+				C3AF7BA42A75D17B00F39414 /* mod.swift in Sources */,
+				C3AF7B9E2A75D0C900F39414 /* file_layout.swift in Sources */,
+				C3AF7B922A75CF2900F39414 /* directory_table.swift in Sources */,
+				C3AF7B962A75CFC800F39414 /* mod.swift in Sources */,
+				C3AF7B9A2A75D06500F39414 /* con_header.swift in Sources */,
+				C362A04D2A75B6ED009FC4A7 /* xex.swift in Sources */,
+				C3AF7B982A75D00E00F39414 /* volume_descriptor.swift in Sources */,
 				C3E88DEA2A7580300040CBC3 /* ContentView.swift in Sources */,
+				C362A04F2A75B6FF009FC4A7 /* unity.swift in Sources */,
+				C3AF7B942A75CF8800F39414 /* iso_types.swift in Sources */,
 				C3E88DEB2A7580300040CBC3 /* XGODApp.swift in Sources */,
+				C3AF7BA02A75D0FD00F39414 /* gdf_sector.swift in Sources */,
+				C362A0512A75B803009FC4A7 /* lib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
